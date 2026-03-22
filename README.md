@@ -4,6 +4,8 @@
 
 It reads a Markdown file path from standard input, reads an output HTML path from standard input, and writes a complete HTML document.
 
+Yes this is a stupid idea.
+
 ## Build
 
 ```sh
