@@ -59,3 +59,8 @@ make run-sample
 ```
 
 That converts [`sample.md`](/Users/jkonrath/Documents/GitHub/cobdown/sample.md) into [`sample.html`](/Users/jkonrath/Documents/GitHub/cobdown/sample.html).
+
+## TODO
+
+* Make this a callable subprogram so another COBOL program could call it. (Accept input and output paths in LINKAGE SECTION instead of interactively; GOBACK instead of STOP RUN, etc.) Maybe write it as a subprogram and then have a simple test program that calls it and as a subprogram so it doesn't have to do both interactive and noninteractive.
+* Benchmarking against real Markdown parsers with Commonmark.
